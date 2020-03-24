@@ -14,7 +14,7 @@ public class Temperatura {
 	
 	public Temperatura() {
 		super();
-		this.grados = 0;
+		this.grados = (double)0;
 		this.escala = Escala.CELCIUS;
 	}
 
@@ -25,7 +25,7 @@ public class Temperatura {
 	}
 
 	public String toString() {
-		return "Temperatura [grados=" + grados + ", escala=" + escala + "]";
+		return " " + grados + " " + escala;
 	}
 	
 	public Double asCelcius() {
@@ -100,6 +100,7 @@ public class Temperatura {
 			
 		}
 	}
+	
 	
 	
 }
